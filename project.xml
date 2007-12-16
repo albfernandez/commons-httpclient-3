@@ -12,7 +12,7 @@
 
   <organization>
     <name>Apache Software Foundation</name>
-    <url>http://jakarta.apache.org/</url>
+    <url>http://httpcomponents.apache.org/</url>
     <logo>http://jakarta.apache.org/images/jakarta-logo.gif</logo>
   </organization>
 
@@ -23,11 +23,11 @@
   </description>
 
   <logo>/images/httpclient_logo.png</logo>
-  <url>http://jakarta.apache.org/httpcomponents/httpclient-3.x/</url>
+  <url>http://hc.apache.org/httpclient-3.x/</url>
   <issueTrackingUrl>http://issues.apache.org/jira/browse/HTTPCLIENT</issueTrackingUrl>
 
   <siteAddress>people.apache.org</siteAddress>
-  <siteDirectory>/www/jakarta.apache.org/httpcomponents/httpclient-3.x/</siteDirectory>
+  <siteDirectory>/www/hc.apache.org/httpclient-3.x/</siteDirectory>
   <repository>
     <connection>scm:svn:http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk</developerConnection>
