@@ -56,14 +56,14 @@ public class MultiThreadedExample {
         HttpClient httpClient = new HttpClient(new MultiThreadedHttpConnectionManager());
         // Set the default host/protocol for the methods to connect to.
         // This value will only be used if the methods are not given an absolute URI
-        httpClient.getHostConfiguration().setHost("jakarta.apache.org", 80, "http");
+        httpClient.getHostConfiguration().setHost("hc.apache.org", 80, "http");
         
         // create an array of URIs to perform GETs on
         String[] urisToGet = {
             "/",
-            "/commons/",
-            "/commons/httpclient/",
-            "http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/"
+            "/httpclient-3.x/status.html",
+            "/httpclient-3.x/methods/",
+            "http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/"
         };
         
         // create a thread for each URI
