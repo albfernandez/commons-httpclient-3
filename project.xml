@@ -157,16 +157,24 @@
 
   <mailingLists>
     <mailingList>
-      <name>HttpComponents Developer List</name>
-      <subscribe>httpcomponents-dev-subscribe@jakarta.apache.org</subscribe>
-      <unsubscribe>httpcomponents-dev-unsubscribe@jakarta.apache.org</unsubscribe>
-      <archive>http://mail-archives.apache.org/mod_mbox/jakarta-httpcomponents-dev/</archive>
+      <name>HttpClient User List</name>
+      <subscribe>httpclient-users-subscribe@hc.apache.org</subscribe>
+      <unsubscribe>httpclient-users-unsubscribe@hc.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</archive>
     </mailingList>
     <mailingList>
-      <name>HttpClient User List</name>
-      <subscribe>httpclient-user-subscribe@jakarta.apache.org</subscribe>
-      <unsubscribe>httpclient-user-unsubscribe@jakarta.apache.org</unsubscribe>
+      <name>HttpComponents Developer List</name>
+      <subscribe>dev-subscribe@hc.apache.org</subscribe>
+      <unsubscribe>dev-unsubscribe@hc.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/hc-dev/</archive>
+    </mailingList>
+    <mailingList>
+      <name>Old HttpClient User List</name>
       <archive>http://mail-archives.apache.org/mod_mbox/jakarta-httpclient-user/</archive>
+    </mailingList>
+    <mailingList>
+      <name>Old HttpComponents Developer List</name>
+      <archive>http://mail-archives.apache.org/mod_mbox/jakarta-httpcomponents-dev/</archive>
     </mailingList>
   </mailingLists>
 
@@ -356,7 +364,7 @@
   </dependencies>
 
   <build>
-    <nagEmailAddress>httpcomponents-dev@jakarta.apache.org</nagEmailAddress>
+    <nagEmailAddress>dev@hc.apache.org</nagEmailAddress>
     <sourceDirectory>src/java</sourceDirectory>
     <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
     <resources>

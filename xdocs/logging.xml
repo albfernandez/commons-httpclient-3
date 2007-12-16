@@ -4,7 +4,7 @@
 
    <properties>
       <title>HttpClient Logging Practices</title>
-      <author email="httpcomponents-dev@jakarta.apache.org">HttpComponents Team</author>
+      <author email="dev@hc.apache.org">HttpComponents Team</author>
       <revision>$Id$</revision>
    </properties>
 

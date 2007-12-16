@@ -3,13 +3,44 @@
 
   <properties>
     <title>HttpClient News</title>
-    <author email="httpclient-dev@jakarta.apache.org">HttpClient Development Team</author>
+    <author email="dev@hc.apache.org">HttpClient Development Team</author>
     <author email="rwaldhoff@apache.org">Rodney Waldhoff</author>
     <author email="jsdever@apache.org">Jeff Dever</author>
     <revision>$Id$</revision>
   </properties>
 
   <body>
+        <section name="16 December 2007 - HttpClient 3.1 Website Moved">
+            <p>
+              The website for HttpClient 3.1 has moved to the new domain
+              of the HttpComponents top level project. The new location is:
+              <br>
+              <a href="http://hc.apache.org/httpclient-3.x/">http://hc.apache.org/httpclient-3.x/</a>
+            </p>
+        </section>    
+        <section name="13 December 2007 - Mailing lists moved">
+            <p>
+                As part of the move to a top level project, the HttpComponents
+                team has moved the mailing lists to a new domain.
+                The new mailing list names are:
+            </p>
+            <p>
+                <ul>
+                <li><a href="mailto:httpclient-users@hc.apache.org">httpclient-users@hc.apache.org</a> - user list, renamed from httpclient-user@jakarta.apache.org
+                </li>
+                <li><a href="mailto:dev@hc.apache.org">dev@hc.apache.org</a> - developer list, renamed from httpcomponents-dev@jakarta.apache.org
+                </li>
+                </ul>
+            <p>
+                Subscribers to the old lists have been moved to the new ones.
+                No action is required for posting and receiving mails on the
+                lists, but you may have to update your mail filter rules
+                with the new list names.
+                Please see the HttpClient
+                <a href="mail-lists.html">mailing list page</a> for 
+                (un)subscription and archive details.
+            </p>
+        </section>    
         <section name="22 August 2007 - HttpClient 3.1 released">
             <p>
               HttpClient 3.1 has been released. This version adds a number improvements to the 
@@ -170,9 +201,7 @@
         <section name="23 October 2004 - New HttpClient mailing lists">
             <p>
                 Starting today HttpClient has two new mailing lists for 
-                <a href="mailto:httpclient-dev@jakarta.apache.org">developer</a> and 
-                <a href="mailto:httpclient-user@jakarta.apache.org">user</a>
-                discussion.  People previously subscribed to <i>commons-httpclient-dev</i> have
+                developer and user discussion. People previously subscribed to <i>commons-httpclient-dev</i> have
                 been automatically moved to the new developer mailing list.  People
                 subscribed to <i>commons-user</i> who are interested in HttpClient will have 
                 to join the HttpClient user mailing list manually.
@@ -415,11 +444,6 @@
     <section name="3 October, 2002 - commons-httpclient-dev mailing list">
       <p>The mailing list was renamed to be <b>commons-httpclient-dev</b>.
         Sorry for the confusion.
-      </p>
-      <p>
-        If you wish to subscribe to this new mailing list, you can send mail to
-        <a href="mailto:commons-httpclient-dev-subscribe@jakarta.apache.org">
-          commons-httpclient-dev-subscribe@jakarta.apache.org</a>
       </p>
     </section>
 

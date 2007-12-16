@@ -4,7 +4,7 @@
 
   <properties>
     <title>Status</title>
-    <author email="httpcomponents-dev@jakarta.apache.org">HttpComponents Team</author>
+    <author email="dev@hc.apache.org">HttpComponents Team</author>
     <author email="remy@apache.org">Remy Maucherat</author>
     <author email="rwaldhoff@apache.org">Rodney Waldhoff</author>
     <author email="jsdever@apache.org">Jeff Dever</author>

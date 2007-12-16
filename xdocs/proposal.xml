@@ -4,7 +4,7 @@
 
   <properties>
     <title>Proposal</title>
-    <author email="httpcomponents-dev@jakarta.apache.org">Commons Documentation Team</author>
+    <author email="dev@hc.apache.org">Commons Documentation Team</author>
     <author email="remy@apache.org">Remy Maucherat</author>
     <author email="jsdever@apache.org">Jeff Dever</author>
     <revision>$Id$</revision>

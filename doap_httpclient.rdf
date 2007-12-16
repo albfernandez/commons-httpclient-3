@@ -22,8 +22,8 @@
     <release>
       <revision>
         <name>commons-httpclient</name>
-        <created>2005-12-19</created>
-        <version>3.0</version>
+        <created>2007-08-22</created>
+        <version>3.1</version>
       </revision>
     </release>
     <mailing-list rdf:resource="http://jakarta.apache.org/httpcomponents/mail-lists.html"/>

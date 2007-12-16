@@ -4,7 +4,7 @@
 
   <properties>
     <title>HttpClient Home</title>
-    <author email="httpcomponents-dev@jakarta.apache.org">HttpComponents Team</author>
+    <author email="dev@hc.apache.org">HttpComponents Team</author>
     <author email="rwaldhoff@apache.org">Rodney Waldhoff</author>
     <author email="jsdever@apache.org">Jeff Dever</author>
     <revision>$Id$</revision>
@@ -55,17 +55,18 @@
         Jakarta Commons, based on code developed by the
         <a href="http://jakarta.apache.org/slide/">Jakarta Slide</a> project.
         It was promoted out of the Commons in 2004, graduating to a separate
-        Jakarta project. In 2005, the
-        <a href="http://jakarta.apache.org/httpcomponents/">HttpComponents</a>
-        project at Jakarta was created, with the task of developing a successor
+        Jakarta project. In 2005, the HttpComponents project at Jakarta was
+        created, with the task of developing a successor
         to <em>HttpClient 3.x</em> and to maintain the existing codebase until
         the new one is ready to take over.
         The <a href="http://commons.apache.org/">Commons</a> project,
         cradle of <em>HttpClient</em>,
         left <a href="http://jakarta.apache.org/">Jakarta</a>
         in 2007 to become an independent Top Level Project.
-        For the time being, <em>HttpClient</em> still has it's home with
-        <em>HttpComponents</em> at Jakarta.
+        Later in the same year, the
+        <a href="http://httpcomponents.apache.org/">HttpComponents</a>
+        project also left Jakarta to become an independent Top Level Project,
+        taking the responsibility for maintaining <em>HttpClient</em> with it.
       </p>
     </section>
 
