@@ -4,17 +4,24 @@
 
   <properties>
     <title>HttpClient User Guide</title>
+    <author email="dev@hc.apache.org">HttpComponents Team</author>
     <author email="adrian@ephox.com">Adrian Sutton</author>
     <revision>$Id$</revision>
   </properties>
 
   <body>
-
     <section name="User Guide">
       <p>The HttpClient user guide is designed to help developers use
       HttpClient in their applications.  While the concept of a user guide
-      being for developers may seem strange, the term developer guide is
-      already in use for helping people develop HttpClient.</p>
+      being for developers may seem strange, the term developer is
+      already in use for people helping to develop HttpClient.</p>
+
+      <p>If you are new to HttpClient, make sure to work through the
+         <a href="tutorial.html">Tutorial</a> and have a look at the
+<a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/">Sample Code</a>.
+         Before reporting problems, read about
+         <a href="troubleshooting.html">Trouble Shooting</a>
+      </p>
     </section>
 
     <section name="Overview">
