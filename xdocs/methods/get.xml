@@ -41,11 +41,11 @@
 
       <p>See the <a href="../tutorial.html">tutorial</a> for a full example
       of using the GET method.  There are also a number of examples in the <a
-      href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/">sample
+      href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/">sample
       code</a>.</p>
 
       <source><![CDATA[
-        GetMethod get = new GetMethod("http://jakarta.apache.org");
+        GetMethod get = new GetMethod("http://httpcomponents.apache.org");
         // execute method and handle any error responses.
         ...
         InputStream in = get.getResponseBodyAsStream();

@@ -227,11 +227,11 @@ client.getParams().setParameter(AuthPolicy.AUTH_SCHEME_PRIORITY, authPrefs);</so
 	</subsection>
 	</section>
     <section name="Examples">
-        <p>There are a number of authentication examples in the <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/">example directory</a>, including:
+        <p>There are a number of authentication examples in the <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/">example directory</a>, including:
             <ul>
-                <li><a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/BasicAuthenticationExample.java?view=markup">Basic authentication</a></li>
-                <li><a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/CustomAuthenticationExample.java?view=markup">Custom authentication</a></li>
-                <li><a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/InteractiveAuthenticationExample.java?view=markup">Interactive authentication</a></li>
+                <li><a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/BasicAuthenticationExample.java?view=markup">Basic authentication</a></li>
+                <li><a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/CustomAuthenticationExample.java?view=markup">Custom authentication</a></li>
+                <li><a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/InteractiveAuthenticationExample.java?view=markup">Interactive authentication</a></li>
             </ul>
         </p>
     </section>

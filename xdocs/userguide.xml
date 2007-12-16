@@ -64,7 +64,7 @@
              and enumerates standard HttpClient parameters.</td>
         </tr>
         <tr>
-          <td><a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/">Sample Code</a></td>
+          <td><a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/">Sample Code</a></td>
           <td>This is a link to the sample code for using HttpClient that is
           stored in the Subversion repository and is available in source releases
           of HttpClient.</td>

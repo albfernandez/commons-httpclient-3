@@ -29,8 +29,9 @@
   <siteAddress>people.apache.org</siteAddress>
   <siteDirectory>/www/jakarta.apache.org/httpcomponents/httpclient-3.x/</siteDirectory>
   <repository>
-   <connection>scm:svn:http://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/trunk</connection>
-    <url>http://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/trunk</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk</developerConnection>
+    <url>http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/</url>
   </repository>
   <versions>
     <version>

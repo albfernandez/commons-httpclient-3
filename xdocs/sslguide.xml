@@ -193,17 +193,17 @@ try {
     <ul>
 
         <li>
-         <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/EasySSLProtocolSocketFactory.java?view=markup">  
+         <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/EasySSLProtocolSocketFactory.java?view=markup">  
           EasySSLProtocolSocketFactory</a> can be used to create SSL connections that allow the target 
           server to authenticate with a self-signed certificate.
         </li>
 
         <li>
-         <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/StrictSSLProtocolSocketFactory.java?view=markup">  
+         <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/StrictSSLProtocolSocketFactory.java?view=markup">  
           StrictSSLProtocolSocketFactory</a> can be used to create SSL connections that can optionally perform host name verification in order to help preventing man-in-the-middle type of attacks. 
         </li>
         <li>
-         <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/AuthSSLProtocolSocketFactory.java?view=markup">  
+         <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/contrib/org/apache/commons/httpclient/contrib/ssl/AuthSSLProtocolSocketFactory.java?view=markup">  
           AuthSSLProtocolSocketFactory</a> can be used to optionally enforce mutual client/server authentication. This is the most flexible
           implementation of a protocol socket factory.  It allows for customization of most, if not all, aspects of the SSL authentication.
         </li>

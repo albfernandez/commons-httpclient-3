@@ -22,17 +22,17 @@
        </ul>
        <p>
          The Subversion repository for <em>HttpClient</em> can be
-         <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/">browsed online</a>.
+         <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/">browsed online</a>.
        </p>
        <p>
          The best way to get the <em>HttpClient</em> source is to checkout
          directly from our public Subversion
-         <a href="http://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/trunk/">repository</a>.
+         <a href="http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk/">repository</a>.
          Instructions are available <a href="http://www.apache.org/dev/version-control.html">here</a>.
        </p>
        <p>
-         If you are using Maven for your project, you can create a dependency in your
-         project.xml with one of the following:</p>
+         If you are using Maven for your project, you can define a dependency
+         in your project.xml with the following:</p>
 	 <p><b>3.1</b></p>
          <source><![CDATA[
 <dependency>

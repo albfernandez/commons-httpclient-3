@@ -15,7 +15,7 @@
       	<li><a href="#MultiThreadedHttpConnectionManager">MultiThreadedHttpConnectionManager</a></li>
 	    <li><a href="#Connection Release">Connection Release</a></li>
 	  </ul>
-      <p>Please see the <a href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/MultiThreadedExample.java?view=markup">MultiThreadedExample</a>
+      <p>Please see the <a href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/MultiThreadedExample.java?view=markup">MultiThreadedExample</a>
       	for a concrete example.</p>
     </section>
 
@@ -85,7 +85,7 @@
       	HttpClient client = new HttpClient(connectionManager);
 			...
         // and then from inside some thread executing a method
-        GetMethod get = new GetMethod("http://jakarta.apache.org/");
+        GetMethod get = new GetMethod("http://httpcomponents.apache.org/");
         try {
             client.executeMethod(get);
             // print response to stdout

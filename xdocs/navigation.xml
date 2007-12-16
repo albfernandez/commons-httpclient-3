@@ -25,7 +25,7 @@
         <item name="Optimization Guide" href="/performance.html"/>
         <item name="Preference Architecture" href="/preference-api.html"/>
         <item name="Redirects Handling" href="/redirects.html"/>
-        <item name="Sample Code" href="http://svn.apache.org/viewvc/jakarta/httpcomponents/oac.hc3x/trunk/src/examples/"/>
+        <item name="Sample Code" href="http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/src/examples/"/>
         <item name="SSL Guide" href="/sslguide.html"/>
         <item name="Threading" href="/threading.html"/>
         <item name="Trouble Shooting" href="/troubleshooting.html"/>
