@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://usefulinc.com/ns/doap#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:asfext="http://projects.apache.org/ns/asfext#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:doap="http://usefulinc.com/ns/doap#" xml:lang="en">
-  <Project rdf:about="http://jakarta.apache.org/commons/httpclient/">
-    <name>Apache Jakarta Commons HttpClient</name>
-    <homepage rdf:resource="http://jakarta.apache.org/commons/httpclient/"/>
+  <Project rdf:about="http://hc.apache.org/httpclient-3.x/">
+    <name>Apache Commons HttpClient</name>
+    <homepage rdf:resource="http://hc.apache.org/httpclient-3.x/"/>
     <programming-language>Java</programming-language>
     <category rdf:resource="http://projects.apache.org/category/library"/>
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
@@ -26,6 +26,6 @@
         <version>3.1</version>
       </revision>
     </release>
-    <mailing-list rdf:resource="http://jakarta.apache.org/httpcomponents/mail-lists.html"/>
+    <mailing-list rdf:resource="http://hc.apache.org/httpclient-3.x/mail-lists.html"/>
   </Project>
 </rdf:RDF>
