@@ -13,7 +13,7 @@
       <item name="Features" href="/features.html"/>
       <item name="News" href="/news.html"/>
       <item name="Status" href="/status.html"/>
-      <item name="Download" href="/downloads.html"/>
+      <item name="Download" href="http://hc.apache.org/downloads.cgi"/>
       <item name="Wiki" href="http://wiki.apache.org/jakarta-httpclient/"/>
     </menu>
 
