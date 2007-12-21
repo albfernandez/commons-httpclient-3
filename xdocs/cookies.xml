@@ -26,19 +26,9 @@
       using Cookies and HttpClient.</p>
     </section>
 
-    <section name="Available Specifications">
-      <p>The following cookie specifications are supported by HttpClient.</p>
-
-      <subsection name="Netscape Draft">
-        <p>The Netscape draft is the original cookie specification which formed
-        the basis for RFC2109.  Despite this it has some significant
-        differences with RFC2109 and thus may be required for compatibility
-        with some servers.</p>
-
-        <p>The Netscape cookie draft is available at <a
-        href="http://wp.netscape.com/newsref/std/cookie_spec.html">http://wp.netscape.com/newsref/std/cookie_spec.html</a>
-        </p>
-      </subsection>
+    <section name="Supported Specifications">
+      <p>The following cookie specifications are supported by HttpClient 3.1.
+      </p>
 
       <subsection name="RFC2109">
         <p>RFC2109 is the first official cookie specification released by the W3C.
@@ -58,6 +48,31 @@
         <p>RFC2109 is the default cookie policy used by HttpClient.</p>
       </subsection>
 
+      <subsection name="RFC2965">
+        <p>RFC2965 defines cookie version 2 and attempts to address the
+           shortcomings of the RFC2109 regarding cookie version 1.
+           RFC2965 is intended to eventually supersede RFC2109.</p>
+
+        <p>Servers that send RFC2965 cookies will use the Set-Cookie2 header
+           in addition to the Set-Cookie header. RFC2965 cookies are port
+           sensitive.
+        </p>
+        <p>RFC2965 is available at
+        <a href="http://www.w3.org/Protocols/rfc2965/rfc2965.txt">http://www.w3.org/Protocols/rfc2965/rfc2965.txt</a>
+        </p>
+      </subsection>
+
+      <subsection name="Netscape Draft">
+        <p>The Netscape draft is the original cookie specification which formed
+        the basis for RFC2109.  Despite this it has some significant
+        differences with RFC2109 and thus may be required for compatibility
+        with some servers.</p>
+
+        <p>The Netscape cookie draft is available at <a
+        href="http://wp.netscape.com/newsref/std/cookie_spec.html">http://wp.netscape.com/newsref/std/cookie_spec.html</a>
+        </p>
+      </subsection>
+
       <subsection name="Browser Compatibility">
         <p>The compatibility specification is designed to be compatible with as
         many different servers as possible even if they are not completely
@@ -72,27 +87,9 @@
 
       <subsection name="Ignore Cookies">
         <p>This cookie specification ignores all cookies.  It should be used to
-        keep HttpClient from accepting and sending cookies.</p>
+        prevent HttpClient from accepting and sending cookies.</p>
       </subsection>
 
-    </section>
-
-    <section name="Unsupported Specifications">
-      <p>The following cookie specifications are not presently supported by HttpClient.</p>
-
-      <subsection name="RFC2965">
-        <p>RFC2965 defines cookie version 2 and attempts to address the shortcomings 
-        of the RFC2109 regarding cookie version 1. RFC2965 is intended to eventually 
-        supersede RFC2109.</p>
-
-        <p>Currently HttpClient does not implement this specification. Support for
-           version 2 cookies will be added in the future</p>
-
-        <p>RFC2965 is available at
-        <a href="http://www.w3.org/Protocols/rfc2965/rfc2965.txt">http://www.w3.org/Protocols/rfc2965/rfc2965.txt</a>
-        </p>
-      </subsection>
-      
     </section>
 
     <section name="Specifying the Specification">
