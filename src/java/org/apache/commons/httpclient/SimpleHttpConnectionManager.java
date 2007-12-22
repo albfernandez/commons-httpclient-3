@@ -268,6 +268,8 @@ public class SimpleHttpConnectionManager implements HttpConnectionManager {
      * @since 3.0
      */
     public void closeIdleConnections(long idleTimeout) {
+        if (httpConnection == null)
+            return;
         long maxIdleTime = System.currentTimeMillis() - idleTimeout;
         if (idleStartTime <= maxIdleTime) {
             httpConnection.close();
@@ -278,7 +280,8 @@ public class SimpleHttpConnectionManager implements HttpConnectionManager {
      * since 3.1
      */
     public void shutdown() {
-        httpConnection.close();
+        if (httpConnection != null)
+            httpConnection.close();
     }
     
 }

@@ -1,3 +1,10 @@
+Changes since 3.1 Final
+
+* [HTTPCLIENT-717] - Fixed NPE in unused SimpleHttpConnectionManager.
+           Contributed by Roland Weber <rolandw at apache.org>
+
+
+
 Release 3.1 Final
 -------------------
 
