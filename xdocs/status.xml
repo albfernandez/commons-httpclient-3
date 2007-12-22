@@ -23,7 +23,7 @@
     </section>
 
     <section name="Release Info">
-      <p>Current Stable Release (<b>recommended</b>): <a href="http://jakarta.apache.org/site/downloads/downloads_commons-httpclient-3.x.cgi">
+      <p>Current Stable Release (<b>recommended</b>): <a href="http://hc.apache.org/downloads.cgi">
           Release 3.1</a></p>
       <p>HttpClient 2.0 is no longer being actively developed and supported.</p>
     </section>

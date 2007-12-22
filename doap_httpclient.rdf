@@ -9,7 +9,7 @@
     <category rdf:resource="http://projects.apache.org/category/network-client"/>
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
     <bug-database rdf:resource="http://issues.apache.org/jira/browse/HTTPCLIENT"/>
-    <download-page rdf:resource="http://jakarta.apache.org/site/downloads/downloads_commons-httpclient-3.x.cgi"/>
+    <download-page rdf:resource="http://hc.apache.org/downloads.cgi"/>
     <asfext:pmc rdf:resource="http://httpcomponents.apache.org/"/>
     <shortdesc xml:lang="en">Client-side HTTP implementation in Java.</shortdesc>
     <description xml:lang="en">
