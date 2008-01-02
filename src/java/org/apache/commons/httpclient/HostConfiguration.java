@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/HostConfiguration.java,v 1.23 2005/01/14 21:16:40 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

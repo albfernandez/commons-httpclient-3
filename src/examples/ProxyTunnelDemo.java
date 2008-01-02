@@ -9,7 +9,7 @@ import org.apache.commons.httpclient.UsernamePasswordCredentials;
 import org.apache.commons.httpclient.auth.AuthScope;
 
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/examples/ProxyTunnelDemo.java,v 1.2 2004/06/12 22:47:23 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * ====================================================================

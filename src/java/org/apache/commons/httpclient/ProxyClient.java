@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/ProxyClient.java,v 1.5 2004/12/20 11:39:04 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

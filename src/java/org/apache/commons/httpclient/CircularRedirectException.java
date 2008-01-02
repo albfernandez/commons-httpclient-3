@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/CircularRedirectException.java,v 1.1 2005/01/14 19:40:39 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

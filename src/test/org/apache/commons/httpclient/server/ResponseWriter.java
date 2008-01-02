@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/server/ResponseWriter.java,v 1.5 2004/11/07 12:31:42 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

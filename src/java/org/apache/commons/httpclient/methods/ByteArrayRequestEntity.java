@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java,v 1.3 2004/05/13 02:26:08 mbecke Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

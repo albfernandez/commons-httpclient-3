@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/ssl/SimpleSSLSocketFactory.java,v 1.1 2004/12/11 22:35:26 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

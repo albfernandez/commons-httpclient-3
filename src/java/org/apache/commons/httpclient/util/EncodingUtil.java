@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/util/EncodingUtil.java,v 1.8 2004/05/13 04:01:22 mbecke Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

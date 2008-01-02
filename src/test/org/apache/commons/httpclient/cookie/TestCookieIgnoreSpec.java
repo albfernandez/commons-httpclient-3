@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/cookie/TestCookieIgnoreSpec.java,v 1.5 2004/10/31 14:42:59 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * ====================================================================

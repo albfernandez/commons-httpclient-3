@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/cookie/TestCookiePolicy.java,v 1.2 2004/09/14 20:11:32 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * ====================================================================

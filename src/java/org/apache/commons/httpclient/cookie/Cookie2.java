@@ -1,5 +1,5 @@
 /*
- * $Header: /cvsroot/httpc-cookie2/httpc-cookie2/httpcookie2SVN-patch.082805-2100.diff,v 1.1 2005/08/29 05:01:58 sjain700 Exp $
+ * $HeadURL$
  * $Revision:400312 $
  * $Date:2006-05-06 14:49:41 +0200 (Sat, 06 May 2006) $
  *

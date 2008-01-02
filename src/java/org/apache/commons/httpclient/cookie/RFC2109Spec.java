@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/cookie/RFC2109Spec.java,v 1.21 2004/06/05 16:49:20 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * 

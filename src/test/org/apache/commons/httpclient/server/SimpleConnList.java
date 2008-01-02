@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/server/SimpleConnList.java,v 1.1 2004/11/13 12:21:28 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/server/ProxyAuthRequestHandler.java,v 1.12 2004/11/28 15:44:39 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

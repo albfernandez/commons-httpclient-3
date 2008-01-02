@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/WireLogInputStream.java,v 1.15 2004/06/24 21:39:52 mbecke Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/Credentials.java,v 1.9 2004/04/18 23:51:34 jsdever Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

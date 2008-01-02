@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java,v 1.4 2004/05/13 04:02:00 mbecke Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

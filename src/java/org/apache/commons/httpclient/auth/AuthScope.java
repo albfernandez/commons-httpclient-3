@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/auth/AuthScope.java,v 1.2 2004/06/23 06:50:25 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

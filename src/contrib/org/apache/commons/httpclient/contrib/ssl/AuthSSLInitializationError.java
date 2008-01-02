@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/contrib/org/apache/commons/httpclient/contrib/ssl/AuthSSLInitializationError.java,v 1.2 2004/06/10 18:25:24 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

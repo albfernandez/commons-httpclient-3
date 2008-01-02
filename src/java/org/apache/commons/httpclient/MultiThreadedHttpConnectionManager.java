@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java,v 1.47 2004/12/21 11:27:55 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

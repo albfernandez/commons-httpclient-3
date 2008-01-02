@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/ProxyTestDecorator.java,v 1.1 2004/11/01 02:21:15 mbecke Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

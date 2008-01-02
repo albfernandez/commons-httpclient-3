@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/auth/DigestScheme.java,v 1.22 2004/12/30 11:01:27 oglueck Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

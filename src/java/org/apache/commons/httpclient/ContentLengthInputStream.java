@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/ContentLengthInputStream.java,v 1.12 2004/10/04 22:05:44 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

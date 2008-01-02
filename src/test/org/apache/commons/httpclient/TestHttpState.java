@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/TestHttpState.java,v 1.7 2004/06/23 06:50:25 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * ====================================================================

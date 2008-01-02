@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/methods/EntityEnclosingMethod.java,v 1.39 2004/07/03 14:27:03 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

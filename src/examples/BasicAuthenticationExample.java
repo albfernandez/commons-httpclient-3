@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/examples/BasicAuthenticationExample.java,v 1.4 2004/06/12 22:47:23 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  * ====================================================================

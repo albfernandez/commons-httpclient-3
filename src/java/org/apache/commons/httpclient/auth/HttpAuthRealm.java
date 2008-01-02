@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/auth/HttpAuthRealm.java,v 1.9 2004/06/12 22:47:23 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

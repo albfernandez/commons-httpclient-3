@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/java/org/apache/commons/httpclient/auth/AuthState.java,v 1.3 2004/11/02 19:39:16 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *

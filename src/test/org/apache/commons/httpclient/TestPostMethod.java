@@ -1,5 +1,5 @@
 /*
- * $Header: /home/jerenkrantz/tmp/commons/commons-convert/cvs/home/cvs/jakarta-commons//httpclient/src/test/org/apache/commons/httpclient/TestWebappPostMethod.java,v 1.7 2004/05/12 20:43:54 olegk Exp $
+ * $HeadURL$
  * $Revision$
  * $Date$
  *
