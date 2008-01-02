@@ -1,5 +1,5 @@
 /*
- * $Header$
+ * $HeadURL$
  * $Revision:400312 $
  * $Date:2006-05-06 14:49:41 +0200 (Sat, 06 May 2006) $
  *
