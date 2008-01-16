@@ -1,5 +1,9 @@
 Changes since 3.1 Final
 
+* HttpConnection#isResponseAvailable(int) changed to return false if the
+  connection is closed instead of throwing java.lang.IllegalStateException
+           Contributed by Oleg Kalnichevski <olegk at apache.org>
+
 * [HTTPCLIENT-717] - Fixed NPE in unused SimpleHttpConnectionManager.
            Contributed by Roland Weber <rolandw at apache.org>
 
@@ -37,6 +41,7 @@ Changes since 3.1 RC 1
 * [HTTPCLIENT-645] - Cookie#compare() changed to do a simple case-sensitive string comparison 
            when comparing path attributes instead of using a static instance of RuleBasedCollator
            Contributed by Oleg Kalnichevski <olegk at apache.org>
+           
 * [HTTPCLIENT-650] - Wire log for headers written one by one while parsing
            instead of all at once afterwards, which fails on parse errors.
            Contributed by Roland Weber <rolandw at apache.org>

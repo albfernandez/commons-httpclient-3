@@ -892,7 +892,9 @@ public class HttpConnection {
     public boolean isResponseAvailable(int timeout) 
         throws IOException {
         LOG.trace("enter HttpConnection.isResponseAvailable(int)");
-        assertOpen();
+        if (!this.isOpen) {
+            return false;
+        }
         boolean result = false;
         if (this.inputStream.available() > 0) {
             result = true;
