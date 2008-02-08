@@ -168,6 +168,12 @@
       <unsubscribe>dev-unsubscribe@hc.apache.org</unsubscribe>
       <archive>http://mail-archives.apache.org/mod_mbox/hc-dev/</archive>
     </mailingList>
+    <mailingList>
+      <name>HttpComponents Commits List</name>
+      <subscribe>commits-subscribe@hc.apache.org</subscribe>
+      <unsubscribe>commits-unsubscribe@hc.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/hc-commits/</archive>
+    </mailingList>
   </mailingLists>
 
   <developers>
