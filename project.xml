@@ -168,14 +168,6 @@
       <unsubscribe>dev-unsubscribe@hc.apache.org</unsubscribe>
       <archive>http://mail-archives.apache.org/mod_mbox/hc-dev/</archive>
     </mailingList>
-    <mailingList>
-      <name>Old HttpClient User List</name>
-      <archive>http://mail-archives.apache.org/mod_mbox/jakarta-httpclient-user/</archive>
-    </mailingList>
-    <mailingList>
-      <name>Old HttpComponents Developer List</name>
-      <archive>http://mail-archives.apache.org/mod_mbox/jakarta-httpcomponents-dev/</archive>
-    </mailingList>
   </mailingLists>
 
   <developers>
