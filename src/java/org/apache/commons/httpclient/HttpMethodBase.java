@@ -1976,9 +1976,6 @@ public abstract class HttpMethodBase implements HttpMethod {
                 throw new NoHttpResponseException("The server " + conn.getHost() + 
                     " failed to respond");
             }
-            if (Wire.HEADER_WIRE.enabled()) {
-                Wire.HEADER_WIRE.input(s + "\r\n");
-            }
             if (s != null && StatusLine.startsWithHTTP(s)) {
                 // Got one
                 break;
