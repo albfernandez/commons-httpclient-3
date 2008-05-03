@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.contrib.proxy;
 import java.lang.reflect.Array;
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.util.Locale;
 import java.util.Properties;
 
 import org.apache.commons.httpclient.ProxyHost;
@@ -286,7 +287,7 @@ public class PluginProxyUtil {
             }
             boolean useProxy = (proxyList != null);
             if (useProxy) {
-                proxyList = proxyList.toUpperCase();
+                proxyList = proxyList.toUpperCase(Locale.ENGLISH);
                 //  Using HTTP proxy as proxy for HTTP proxy tunnelled SSL 
                 //  socket (should be listed FIRST)....
                 //  1/14/03 1.3.1_06 appears to omit HTTP portion of 

@@ -30,6 +30,8 @@
 
 package org.apache.commons.httpclient.cookie;
 
+import java.util.Locale;
+
 import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.Cookie;
 import org.apache.commons.httpclient.util.ParameterFormatter;
@@ -87,7 +89,7 @@ public class RFC2109Spec extends CookieSpecBase {
         if (cookie == null) {
             throw new IllegalArgumentException("Cookie may not be null.");
         }
-        final String paramName = attribute.getName().toLowerCase();
+        final String paramName = attribute.getName().toLowerCase(Locale.ENGLISH);
         final String paramValue = attribute.getValue();
 
         if (paramName.equals("path")) {
@@ -164,7 +166,7 @@ public class RFC2109Spec extends CookieSpecBase {
                     + cookie.getDomain() 
                     + "\" violates RFC 2109: domain must contain an embedded dot");
             }
-            host = host.toLowerCase();
+            host = host.toLowerCase(Locale.ENGLISH);
             if (!host.endsWith(cookie.getDomain())) {
                 throw new MalformedCookieException(
                     "Illegal domain attribute \"" + cookie.getDomain() 

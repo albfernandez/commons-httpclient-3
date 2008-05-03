@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.cookie;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import org.apache.commons.logging.Log;
@@ -171,7 +172,7 @@ public abstract class CookiePolicy {
         if (clazz == null) {
             throw new IllegalArgumentException("Cookie spec class may not be null");
         }
-        SPECS.put(id.toLowerCase(), clazz);
+        SPECS.put(id.toLowerCase(Locale.ENGLISH), clazz);
     }
 
     /**
@@ -185,7 +186,7 @@ public abstract class CookiePolicy {
          if (id == null) {
              throw new IllegalArgumentException("Id may not be null");
          }
-         SPECS.remove(id.toLowerCase());
+         SPECS.remove(id.toLowerCase(Locale.ENGLISH));
     }
 
     /**
@@ -205,7 +206,7 @@ public abstract class CookiePolicy {
         if (id == null) {
             throw new IllegalArgumentException("Id may not be null");
         }
-        Class clazz = (Class)SPECS.get(id.toLowerCase());
+        Class clazz = (Class)SPECS.get(id.toLowerCase(Locale.ENGLISH));
 
         if (clazz != null) {
             try {

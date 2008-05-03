@@ -31,6 +31,7 @@ package org.apache.commons.httpclient.protocol;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import org.apache.commons.httpclient.util.LangUtils;
@@ -288,7 +289,7 @@ public class Protocol {
     public int hashCode() {
         int hash = LangUtils.HASH_SEED;
         hash = LangUtils.hashCode(hash, this.defaultPort);
-        hash = LangUtils.hashCode(hash, this.scheme.toLowerCase());
+        hash = LangUtils.hashCode(hash, this.scheme.toLowerCase(Locale.ENGLISH));
         hash = LangUtils.hashCode(hash, this.secure);
         hash = LangUtils.hashCode(hash, this.socketFactory);
         return hash;

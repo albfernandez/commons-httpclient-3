@@ -34,6 +34,7 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 
 import org.apache.commons.httpclient.Cookie;
 import org.apache.commons.httpclient.Header;
@@ -135,7 +136,7 @@ public class CookieSpecBase implements CookieSpec {
         if (path.trim().equals("")) {
             path = PATH_DELIM;
         }
-        host = host.toLowerCase();
+        host = host.toLowerCase(Locale.ENGLISH);
 
         String defaultPath = path;    
         int lastSlashIndex = defaultPath.lastIndexOf(PATH_DELIM);
@@ -150,7 +151,7 @@ public class CookieSpecBase implements CookieSpec {
         HeaderElement[] headerElements = null;
 
         boolean isNetscapeCookie = false; 
-        int i1 = header.toLowerCase().indexOf("expires=");
+        int i1 = header.toLowerCase(Locale.ENGLISH).indexOf("expires=");
         if (i1 != -1) {
             i1 += "expires=".length();
             int i2 = header.indexOf(";", i1);
@@ -269,7 +270,7 @@ public class CookieSpecBase implements CookieSpec {
         if (cookie == null) {
             throw new IllegalArgumentException("Cookie may not be null.");
         }
-        final String paramName = attribute.getName().toLowerCase();
+        final String paramName = attribute.getName().toLowerCase(Locale.ENGLISH);
         String paramValue = attribute.getValue();
 
         if (paramName.equals("path")) {
@@ -386,7 +387,7 @@ public class CookieSpecBase implements CookieSpec {
         if (path.trim().equals("")) {
             path = PATH_DELIM;
         }
-        host = host.toLowerCase();
+        host = host.toLowerCase(Locale.ENGLISH);
         // check version
         if (cookie.getVersion() < 0) {
             throw new MalformedCookieException ("Illegal version number " 
@@ -474,7 +475,7 @@ public class CookieSpecBase implements CookieSpec {
         if (path.trim().equals("")) {
             path = PATH_DELIM;
         }
-        host = host.toLowerCase();
+        host = host.toLowerCase(Locale.ENGLISH);
         if (cookie.getDomain() == null) {
             LOG.warn("Invalid cookie state: domain not specified");
             return false;

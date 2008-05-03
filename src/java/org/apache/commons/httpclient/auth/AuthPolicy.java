@@ -33,6 +33,7 @@ package org.apache.commons.httpclient.auth;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -129,8 +130,8 @@ public abstract class AuthPolicy {
         if (clazz == null) {
             throw new IllegalArgumentException("Authentication scheme class may not be null");
         }
-        SCHEMES.put(id.toLowerCase(), clazz);
-        SCHEME_LIST.add(id.toLowerCase());
+        SCHEMES.put(id.toLowerCase(Locale.ENGLISH), clazz);
+        SCHEME_LIST.add(id.toLowerCase(Locale.ENGLISH));
     }
 
     /**
@@ -143,8 +144,8 @@ public abstract class AuthPolicy {
          if (id == null) {
              throw new IllegalArgumentException("Id may not be null");
          }
-        SCHEMES.remove(id.toLowerCase());
-        SCHEME_LIST.remove(id.toLowerCase());
+        SCHEMES.remove(id.toLowerCase(Locale.ENGLISH));
+        SCHEME_LIST.remove(id.toLowerCase(Locale.ENGLISH));
     }
 
     /**
@@ -162,7 +163,7 @@ public abstract class AuthPolicy {
         if (id == null) {
             throw new IllegalArgumentException("Id may not be null");
         }
-        Class clazz = (Class)SCHEMES.get(id.toLowerCase());
+        Class clazz = (Class)SCHEMES.get(id.toLowerCase(Locale.ENGLISH));
         if (clazz != null) {
             try {
                 return (AuthScheme)clazz.newInstance();

@@ -33,6 +33,7 @@ package org.apache.commons.httpclient;
 import java.io.Serializable;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.Locale;
 
 import org.apache.commons.httpclient.cookie.CookiePolicy;
 import org.apache.commons.httpclient.cookie.CookieSpec;
@@ -234,7 +235,7 @@ public class Cookie extends NameValuePair implements Serializable, Comparator {
             if (ndx != -1) {
               domain = domain.substring(0, ndx);
             }
-            cookieDomain = domain.toLowerCase();
+            cookieDomain = domain.toLowerCase(Locale.ENGLISH);
         }
     }
 

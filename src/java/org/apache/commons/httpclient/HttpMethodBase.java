@@ -36,6 +36,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.util.Collection;
+import java.util.Locale;
 
 import org.apache.commons.httpclient.auth.AuthState;
 import org.apache.commons.httpclient.cookie.CookiePolicy;
@@ -1503,7 +1504,7 @@ public abstract class HttpMethodBase implements HttpMethod {
         // Absolute or relative URL?
         if (!connection.isTransparent()) {
             Protocol protocol = connection.getProtocol();
-            buf.append(protocol.getScheme().toLowerCase());
+            buf.append(protocol.getScheme().toLowerCase(Locale.ENGLISH));
             buf.append("://");
             buf.append(connection.getHost());
             if ((connection.getPort() != -1) 

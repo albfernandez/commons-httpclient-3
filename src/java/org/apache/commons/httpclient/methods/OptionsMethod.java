@@ -38,6 +38,7 @@ import org.apache.commons.httpclient.HttpState;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.logging.Log;
 import java.util.Enumeration;
+import java.util.Locale;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
@@ -169,7 +170,7 @@ public class OptionsMethod
                 new StringTokenizer(allowHeaderValue, ",");
             while (tokenizer.hasMoreElements()) {
                 String methodAllowed =
-                    tokenizer.nextToken().trim().toUpperCase();
+                    tokenizer.nextToken().trim().toUpperCase(Locale.ENGLISH);
                 methodsAllowed.addElement(methodAllowed);
             }
         }

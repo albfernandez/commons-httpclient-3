@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.auth;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import org.apache.commons.httpclient.Header;
@@ -74,7 +75,7 @@ public final class AuthChallengeParser {
         if (s.equals("")) {
             throw new MalformedChallengeException("Invalid challenge: " + challengeStr);
         }
-        return s.toLowerCase();
+        return s.toLowerCase(Locale.ENGLISH);
     }
 
     /** 
@@ -103,7 +104,7 @@ public final class AuthChallengeParser {
             challengeStr.substring(idx + 1, challengeStr.length()), ',');
         for (int i = 0; i < params.size(); i++) {
             NameValuePair param = (NameValuePair) params.get(i);
-            map.put(param.getName().toLowerCase(), param.getValue());
+            map.put(param.getName().toLowerCase(Locale.ENGLISH), param.getValue());
         }
         return map;
     }

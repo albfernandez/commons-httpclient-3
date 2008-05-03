@@ -30,6 +30,7 @@
 
 package org.apache.commons.httpclient.auth;
 
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -117,7 +118,7 @@ public abstract class RFC2617Scheme implements AuthScheme {
         if (this.params == null) {
             return null;
         }
-        return (String) this.params.get(name.toLowerCase());
+        return (String) this.params.get(name.toLowerCase(Locale.ENGLISH));
     }
 
     /**

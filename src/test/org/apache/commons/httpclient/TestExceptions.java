@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.util.Locale;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -125,7 +126,7 @@ public class TestExceptions extends TestCase
         
         Throwable cause = exception.getCause();
         if (cause != null) {
-            assertTrue("Contains 'cause'", stackTrace.toLowerCase().indexOf("cause") != -1);
+            assertTrue("Contains 'cause'", stackTrace.toLowerCase(Locale.ENGLISH).indexOf("cause") != -1);
             assertTrue("Contains cause.toString()", stackTrace.indexOf(cause.toString()) != -1);
         }
     }

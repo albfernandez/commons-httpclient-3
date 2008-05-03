@@ -38,6 +38,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.StringTokenizer;
 
@@ -275,7 +276,7 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
                 Map attribmap = new HashMap(parameters.length); 
                 for (int j = parameters.length - 1; j >= 0; j--) {
                     NameValuePair param = parameters[j];
-                    attribmap.put(param.getName().toLowerCase(), param);
+                    attribmap.put(param.getName().toLowerCase(Locale.ENGLISH), param);
                 }
                 for (Iterator it = attribmap.entrySet().iterator(); it.hasNext(); ) {
                     Map.Entry entry = (Map.Entry) it.next();
@@ -309,7 +310,7 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
         if (cookie == null) {
             throw new IllegalArgumentException("Cookie may not be null.");
         }
-        final String paramName = attribute.getName().toLowerCase();
+        final String paramName = attribute.getName().toLowerCase(Locale.ENGLISH);
         final String paramValue = attribute.getValue();
 
         CookieAttributeHandler handler = findAttribHandler(paramName);
@@ -556,7 +557,7 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
      * @return
      */
     private static String getEffectiveHost(final String host) {
-        String effectiveHost = host.toLowerCase();
+        String effectiveHost = host.toLowerCase(Locale.ENGLISH);
         if (host.indexOf('.') < 0) {
             effectiveHost += ".local";
         }
@@ -712,7 +713,7 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
                 throw new MalformedCookieException(
                         "Blank value for domain attribute");
             }
-            domain = domain.toLowerCase();
+            domain = domain.toLowerCase(Locale.ENGLISH);
             if (!domain.startsWith(".")) {
                 // Per RFC 2965 section 3.2.2
                 // "... If an explicitly specified value does not start with
@@ -736,12 +737,12 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
             if (origin == null) {
                 throw new IllegalArgumentException("Cookie origin may not be null");
             }
-            String host = origin.getHost().toLowerCase();
+            String host = origin.getHost().toLowerCase(Locale.ENGLISH);
             if (cookie.getDomain() == null) {
                 throw new MalformedCookieException("Invalid cookie state: " +
                                                    "domain not specified");
             }
-            String cookieDomain = cookie.getDomain().toLowerCase();
+            String cookieDomain = cookie.getDomain().toLowerCase(Locale.ENGLISH);
 
             if (cookie.isDomainAttributeSpecified()) {
                 // Domain attribute must start with a dot
@@ -799,7 +800,7 @@ public class RFC2965Spec extends CookieSpecBase implements CookieVersionSupport 
             if (origin == null) {
                 throw new IllegalArgumentException("Cookie origin may not be null");
             }
-            String host = origin.getHost().toLowerCase();
+            String host = origin.getHost().toLowerCase(Locale.ENGLISH);
             String cookieDomain = cookie.getDomain();
 
             // The effective host name MUST domain-match the Domain

@@ -33,6 +33,7 @@ package org.apache.commons.httpclient;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * A class for combining a set of headers.  This class allows for multiple
@@ -122,7 +123,7 @@ public class HeaderGroup {
                 valueBuffer.append(headers[i].getValue());
             }
             
-            return new Header(name.toLowerCase(), valueBuffer.toString());
+            return new Header(name.toLowerCase(Locale.ENGLISH), valueBuffer.toString());
         }
     }
     

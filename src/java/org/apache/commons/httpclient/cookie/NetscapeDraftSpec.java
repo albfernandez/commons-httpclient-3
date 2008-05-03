@@ -125,7 +125,7 @@ public class NetscapeDraftSpec extends CookieSpecBase {
         if (path.trim().equals("")) {
             path = PATH_DELIM;
         }
-        host = host.toLowerCase();
+        host = host.toLowerCase(Locale.ENGLISH);
 
         String defaultPath = path;    
         int lastSlashIndex = defaultPath.lastIndexOf(PATH_DELIM);
@@ -174,7 +174,7 @@ public class NetscapeDraftSpec extends CookieSpecBase {
         if (cookie == null) {
             throw new IllegalArgumentException("Cookie may not be null.");
         }
-        final String paramName = attribute.getName().toLowerCase();
+        final String paramName = attribute.getName().toLowerCase(Locale.ENGLISH);
         final String paramValue = attribute.getValue();
 
         if (paramName.equals("expires")) {
@@ -256,7 +256,7 @@ public class NetscapeDraftSpec extends CookieSpecBase {
      * @return True if the specified domain is "special"
      */
     private static boolean isSpecialDomain(final String domain) {
-        final String ucDomain = domain.toUpperCase();
+        final String ucDomain = domain.toUpperCase(Locale.ENGLISH);
         if (ucDomain.endsWith(".COM") 
            || ucDomain.endsWith(".EDU")
            || ucDomain.endsWith(".NET")

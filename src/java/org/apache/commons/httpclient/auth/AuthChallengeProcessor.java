@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.auth;
 
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Locale;
 import java.util.Map;
 
 import org.apache.commons.httpclient.params.HttpParams;
@@ -95,7 +96,7 @@ public final class AuthChallengeProcessor {
         Iterator item = authPrefs.iterator();
         while (item.hasNext()) {
             String id = (String) item.next();
-            challenge = (String) challenges.get(id.toLowerCase()); 
+            challenge = (String) challenges.get(id.toLowerCase(Locale.ENGLISH)); 
             if (challenge != null) {
                 if (LOG.isInfoEnabled()) {
                     LOG.info(id + " authentication scheme selected");
@@ -154,7 +155,7 @@ public final class AuthChallengeProcessor {
         if (LOG.isDebugEnabled()) {
             LOG.debug("Using authentication scheme: " + id);
         }
-        String challenge = (String) challenges.get(id.toLowerCase());
+        String challenge = (String) challenges.get(id.toLowerCase(Locale.ENGLISH));
         if (challenge == null) {
             throw new AuthenticationException(id + 
                 " authorization challenge expected, but not found");

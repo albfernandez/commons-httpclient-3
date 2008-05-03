@@ -30,6 +30,8 @@
 
 package org.apache.commons.httpclient;
 
+import java.util.Locale;
+
 /**
  * Represents a Status-Line as returned from a HTTP server.
  *
@@ -100,7 +102,7 @@ public class StatusLine {
                         "Unable to parse HTTP-Version from the status line: '"
                         + statusLine + "'");
             }
-            this.httpVersion = (statusLine.substring(start, at)).toUpperCase();
+            this.httpVersion = (statusLine.substring(start, at)).toUpperCase(Locale.ENGLISH);
 
             //advance through spaces
             while (statusLine.charAt(at) == ' ') {

@@ -1,5 +1,7 @@
 package org.apache.commons.httpclient.contrib.ssl;
 
+import java.util.Locale;
+
 import org.apache.commons.httpclient.HostConfiguration;
 import org.apache.commons.httpclient.HttpHost;
 import org.apache.commons.httpclient.HttpsURL;
@@ -47,7 +49,7 @@ public class HttpHostFactory
                 return oldProtocol; // Retain it.
             }
         }
-        Protocol newProtocol = (scheme != null && scheme.toLowerCase().endsWith("s")) ? httpsProtocol
+        Protocol newProtocol = (scheme != null && scheme.toLowerCase(Locale.ENGLISH).endsWith("s")) ? httpsProtocol
                 : httpProtocol;
         if (newProtocol == null) {
             newProtocol = Protocol.getProtocol(scheme);

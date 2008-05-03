@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.params;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 
 import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
 import org.apache.commons.httpclient.HttpVersion;
@@ -115,7 +116,7 @@ public class DefaultHttpParamsFactory implements HttpParamsFactory {
         } catch (SecurityException ignore) {
         }
         if (preemptiveDefault != null) {
-            preemptiveDefault = preemptiveDefault.trim().toLowerCase();
+            preemptiveDefault = preemptiveDefault.trim().toLowerCase(Locale.ENGLISH);
             if (preemptiveDefault.equals("true")) {
                 params.setParameter(HttpClientParams.PREEMPTIVE_AUTHENTICATION, Boolean.TRUE);
             } else if (preemptiveDefault.equals("false")) {

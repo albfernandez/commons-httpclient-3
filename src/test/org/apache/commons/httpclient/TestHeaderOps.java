@@ -32,6 +32,7 @@ package org.apache.commons.httpclient;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.util.Iterator;
+import java.util.Locale;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -83,7 +84,7 @@ public class TestHeaderOps extends HttpClientTestBase {
             for (Iterator i = request.getHeaderIterator(); i.hasNext(); ) {
                 Header header = (Header) i.next();
                 buffer.append("name=\"");
-                buffer.append(header.getName().toLowerCase());
+                buffer.append(header.getName().toLowerCase(Locale.ENGLISH));
                 buffer.append("\";value=\"");
                 buffer.append(header.getValue());
                 buffer.append("\"\r\n");

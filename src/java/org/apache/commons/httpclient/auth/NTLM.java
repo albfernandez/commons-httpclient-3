@@ -32,6 +32,7 @@ package org.apache.commons.httpclient.auth;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.util.Locale;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -230,8 +231,8 @@ final class NTLM {
      * @return String the message to add to the HTTP request header.
      */
     public String getType1Message(String host, String domain) {
-        host = host.toUpperCase();
-        domain = domain.toUpperCase();
+        host = host.toUpperCase(Locale.ENGLISH);
+        domain = domain.toUpperCase(Locale.ENGLISH);
         byte[] hostBytes = EncodingUtil.getBytes(host, DEFAULT_CHARSET);
         byte[] domainBytes = EncodingUtil.getBytes(domain, DEFAULT_CHARSET);
 
@@ -334,9 +335,9 @@ final class NTLM {
 
         int ntRespLen = 0;
         int lmRespLen = 24;
-        domain = domain.toUpperCase();
-        host = host.toUpperCase();
-        user = user.toUpperCase();
+        domain = domain.toUpperCase(Locale.ENGLISH);
+        host = host.toUpperCase(Locale.ENGLISH);
+        user = user.toUpperCase(Locale.ENGLISH);
         byte[] domainBytes = EncodingUtil.getBytes(domain, DEFAULT_CHARSET);
         byte[] hostBytes = EncodingUtil.getBytes(host, DEFAULT_CHARSET);
         byte[] userBytes = EncodingUtil.getBytes(user, credentialCharset);
@@ -429,7 +430,7 @@ final class NTLM {
      */
     private byte[] hashPassword(String password, byte[] nonce)
         throws AuthenticationException {
-        byte[] passw = EncodingUtil.getBytes(password.toUpperCase(), credentialCharset);
+        byte[] passw = EncodingUtil.getBytes(password.toUpperCase(Locale.ENGLISH), credentialCharset);
         byte[] lmPw1 = new byte[7];
         byte[] lmPw2 = new byte[7];
 
