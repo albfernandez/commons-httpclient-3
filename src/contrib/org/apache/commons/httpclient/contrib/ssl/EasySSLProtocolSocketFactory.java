@@ -37,16 +37,16 @@ import java.net.Socket;
 import java.net.SocketAddress;
 import java.net.UnknownHostException;
 
+import javax.net.SocketFactory;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+
 import org.apache.commons.httpclient.ConnectTimeoutException;
 import org.apache.commons.httpclient.HttpClientError;
 import org.apache.commons.httpclient.params.HttpConnectionParams;
 import org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory;
-import org.apache.commons.logging.Log; 
+import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
-import javax.net.SocketFactory;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManager;
 
 /**
  * <p>
@@ -65,11 +65,13 @@ import javax.net.ssl.TrustManager;
  *     <pre>
  *     Protocol easyhttps = new Protocol("https", new EasySSLProtocolSocketFactory(), 443);
  *
- *     HttpClient client = new HttpClient();
- *     client.getHostConfiguration().setHost("localhost", 443, easyhttps);
+ *     URI uri = new URI("https://localhost/", true);
  *     // use relative url only
- *     GetMethod httpget = new GetMethod("/");
- *     client.executeMethod(httpget);
+ *     GetMethod httpget = new GetMethod(uri.getPathQuery());
+ *     HostConfiguration hc = new HostConfiguration();
+ *     hc.setHost(uri.getHost(), uri.getPort(), easyhttps);
+ *     HttpClient client = new HttpClient();
+ *     client.executeMethod(hc, httpget);
  *     </pre>
  * </p>
  * <p>
