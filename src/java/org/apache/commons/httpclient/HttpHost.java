@@ -58,7 +58,7 @@ public class HttpHost implements Cloneable {
     /**
      * Constructor for HttpHost.
      *   
-     * @param hostname the hostname (IP or DNS name). Can be <code>null</code>.
+     * @param hostname the hostname (IP or DNS name).
      * @param port the port. Value <code>-1</code> can be used to set default protocol port
      * @param protocol the protocol. Value <code>null</code> can be used to set default protocol
      */
@@ -117,19 +117,19 @@ public class HttpHost implements Cloneable {
         init(httphost);
     }
 
-	private void init(final HttpHost httphost) {
-		this.hostname = httphost.hostname;
+    private void init(final HttpHost httphost) {
+        this.hostname = httphost.hostname;
         this.port = httphost.port;
         this.protocol = httphost.protocol;
-	}
+    }
 
     /**
      * @throws CloneNotSupportedException 
      * @see java.lang.Object#clone()
      */
     public Object clone() throws CloneNotSupportedException {
-    	HttpHost copy = (HttpHost) super.clone();
-    	copy.init(this);
+        HttpHost copy = (HttpHost) super.clone();
+        copy.init(this);
         return copy;
     }    
     

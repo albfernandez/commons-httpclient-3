@@ -57,7 +57,7 @@ public class ProxyHost extends HttpHost {
     /**
      * Constructor for ProxyHost.
      *   
-     * @param hostname the hostname (IP or DNS name). Can be <code>null</code>.
+     * @param hostname the hostname (IP or DNS name).
      * @param port the port. Value <code>-1</code> can be used to set default protocol port
      */
     public ProxyHost(final String hostname, int port) {
@@ -78,7 +78,7 @@ public class ProxyHost extends HttpHost {
      * @see java.lang.Object#clone()
      */
     public Object clone() throws CloneNotSupportedException {
-    	ProxyHost copy = (ProxyHost) super.clone();
+        ProxyHost copy = (ProxyHost) super.clone();
         return copy;
     }    
     
