@@ -285,7 +285,7 @@ java.io.IOException
      not been fully transmitted to the server).
      </p>
      <p>
-     HttpClient will automatically retry up to 5 times those methods that have been fully transmitted to 
+     HttpClient will automatically retry up to 3 times those methods that have been fully transmitted to 
      the server, but the server failed to respond with an HTTP status code (the server simply drops the 
      connection without sending anything back). In this case it is assumed that the request has not been 
      processed by the server and the application state has not changed. If this assumption may not hold 
