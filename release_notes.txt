@@ -1,5 +1,9 @@
 Changes since 3.1 Final
 
+* [HTTPCLIENT-804] - ChunkedInputStream no longer accepts truncated chunks 
+  as valid input.
+           Contributed by Oleg Kalnichevski <olegk at apache.org>
+
 * HttpConnection#isResponseAvailable(int) changed to return false if the
   connection is closed instead of throwing java.lang.IllegalStateException
            Contributed by Oleg Kalnichevski <olegk at apache.org>

@@ -112,6 +112,23 @@ public class TestStreams extends TestCase {
         }
     }
 
+    public void testCorruptChunkedInputStream2() throws IOException {
+        //truncated chunk
+        String corrupInput = "3\r\n11";
+        HttpMethod method = new FakeHttpMethod();
+
+        InputStream in = new ChunkedInputStream(new ByteArrayInputStream(
+            EncodingUtil.getBytes(corrupInput, CONTENT_CHARSET)), method);
+        byte[] buffer = new byte[300];
+        assertEquals(2, in.read(buffer));
+        try {
+            in.read(buffer);
+            fail("Should have thrown exception");
+        } catch(IOException e) {
+            /* expected exception */
+        }
+    }
+
     public void testEmptyChunkedInputStream() throws IOException {
         String input = "0\r\n";
         HttpMethod method = new FakeHttpMethod();
