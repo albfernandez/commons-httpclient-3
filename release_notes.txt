@@ -1,5 +1,9 @@
 Changes since 3.1 Final
 
+* [HTTPCLIENT-837] - Fixed problem with the wire log skipping zero byte values 
+  if read one byte at a time.
+           Contributed by Kirill Safonov <ksafonov at swiftteams.com>
+
 * [HTTPCLIENT-804] - ChunkedInputStream no longer accepts truncated chunks 
   as valid input.
            Contributed by Oleg Kalnichevski <olegk at apache.org>

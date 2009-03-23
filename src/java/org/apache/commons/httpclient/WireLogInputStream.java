@@ -79,7 +79,7 @@ class WireLogInputStream extends FilterInputStream {
      */
     public int read() throws IOException {
         int l = this.in.read();
-        if (l > 0) { 
+        if (l != -1) { 
             wire.input(l);
         }
         return l;
