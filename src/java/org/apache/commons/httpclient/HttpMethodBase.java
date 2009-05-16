@@ -2493,12 +2493,14 @@ public abstract class HttpMethodBase implements HttpMethod {
     void fakeResponse(
         StatusLine statusline, 
         HeaderGroup responseheaders,
+        HttpConnection conn,
         InputStream responseStream
     ) {
         // set used so that the response can be read
         this.used = true;
         this.statusLine = statusline;
         this.responseHeaders = responseheaders;
+        this.responseConnection = conn;
         this.responseBody = null;
         this.responseStream = responseStream;
     }

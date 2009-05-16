@@ -516,7 +516,6 @@ class HttpMethodDirector {
             this.connectMethod = null;
             return true;
         } else {
-            this.conn.close();
             return false;
         }
     }
@@ -551,6 +550,7 @@ class HttpMethodDirector {
             ((HttpMethodBase) method).fakeResponse(
                 this.connectMethod.getStatusLine(),
                 this.connectMethod.getResponseHeaderGroup(),
+                conn,
                 this.connectMethod.getResponseBodyAsStream()
             );
             method.getProxyAuthState().setAuthScheme(
