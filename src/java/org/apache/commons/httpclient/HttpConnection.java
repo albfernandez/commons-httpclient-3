@@ -1107,7 +1107,7 @@ public class HttpConnection {
      *
      * @throws IllegalStateException if the connection is not open
      * @throws IOException if an I/O problem occurs
-     * @return a line from the response
+     * @return a line from the response or null at the end of the stream
      * 
      * @since 3.0
      */
