@@ -645,7 +645,8 @@ class HttpMethodDirector {
 				+ "' to '" + redirectUri.getEscapedURI());
 		}
         //And finally invalidate the actual authentication scheme
-        method.getHostAuthState().invalidate(); 
+                method.getHostAuthState().invalidate(); 
+                method.getProxyAuthState().invalidate(); 
 		return true;
 	}
 
