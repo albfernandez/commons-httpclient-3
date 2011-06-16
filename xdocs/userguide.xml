@@ -10,6 +10,15 @@
   </properties>
 
   <body>
+    <section name="End of life">
+      <p>
+      The Commons HttpClient project is now end of life, and is no longer being developed. 
+      It has been replaced by the <a href="../">Apache HttpComponents</a> project
+      in its <a href="../httpcomponents-client-ga">HttpClient</a> and <a href="../httpcomponents-core-ga/">HttpCore</a> modules,
+      which offer better performance and more flexibility.
+      </p>
+    </section>
+
     <section name="User Guide">
       <p>The HttpClient user guide is designed to help developers use
       HttpClient in their applications.  While the concept of a user guide
