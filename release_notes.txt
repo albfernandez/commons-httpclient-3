@@ -1,4 +1,5 @@
-Changes since 3.1 Final
+Release 3.1-ayg-01
+-------------------
 
 * [HTTPCLIENT-1265] - Insecure certificate validation CVE-2012-5783
 
