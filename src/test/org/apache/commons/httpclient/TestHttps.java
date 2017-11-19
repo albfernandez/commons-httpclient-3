@@ -49,7 +49,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
  *    (see build.xml)
  *
  * @author Rodney Waldhoff
- * @author Ortwin Glück
+ * @author Ortwin GlÃ¼ck
  * @version $Id$
  */
 public class TestHttps extends TestCase {
