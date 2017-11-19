@@ -1,5 +1,7 @@
 Changes since 3.1 Final
 
+* [HTTPCLIENT-1265] - Insecure certificate validation CVE-2012-5783
+
 * [HTTPCLIENT-917] - Invalidate proxy authentication state on redirects.
            Contributed by Karl Wright <kwright at metacarta.com>
 
