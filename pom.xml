@@ -26,7 +26,7 @@
 			<id>mbecke</id>
 			<name>Michael Becke</name>
 			<email>mbecke -at- apache.org</email>
-			<organization></organization>
+			<organization/>
 			<roles>
 				<role>Release Prime</role>
 				<role>Java Developer</role>
@@ -56,7 +56,7 @@
 			<name>Ortwin Glueck</name>
 			<email>oglueck -at- apache.org</email>
 			<url>http://www.odi.ch/</url>
-			<organization></organization>
+			<organization/>
 			<roles>
 				<role>Java Developer</role>
 			</roles>
@@ -65,7 +65,7 @@
 			<id>jericho</id>
 			<name>Sung-Gu</name>
 			<email>jericho -at- apache.org</email>
-			<organization></organization>
+			<organization/>
 			<roles>
 				<role>Java Developer</role>
 			</roles>
@@ -117,7 +117,7 @@
 		</contributor>
 		<contributor>
 			<name>Ola Berg</name>
-			<email></email>
+			<email/>
 		</contributor>
 		<contributor>
 			<name>Sam Berlin</name>
@@ -125,7 +125,7 @@
 		</contributor>
 		<contributor>
 			<name>Mike Bowler</name>
-			<email></email>
+			<email/>
 		</contributor>
 		<contributor>
 			<name>Samit Jain</name>
@@ -231,7 +231,7 @@
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
-			<version>1.11</version>
+			<version>1.13</version>
 		</dependency>
 	</dependencies>
 	<build>
