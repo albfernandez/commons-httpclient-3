@@ -18,3 +18,6 @@ Security fixes
 * [CVE-2012-5783](https://nvd.nist.gov/vuln/detail/CVE-2012-5783)
 * [CVE-2014-3577](https://nvd.nist.gov/vuln/detail/CVE-2014-3577)
 * [CVE-2015-5262](https://nvd.nist.gov/vuln/detail/CVE-2015-5262)
+
+
+[Original svn repository](http://svn.apache.org/viewvc/httpcomponents/oac.hc3x/trunk/)
